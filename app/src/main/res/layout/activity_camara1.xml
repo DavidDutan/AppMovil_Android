@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="100dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/resolution_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="110dp"
+            android:src="@drawable/resolution" />
+
+        <ImageView
+
+            android:id="@+id/video_camera_buton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/video_camera_buton" />
+
+        <ImageView
+
+            android:layout_width="117dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/gallery"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/gallery" />
+
+        <ImageView
+            android:id="@+id/camara"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/camara" />
+
+        <ImageView
+            android:id="@+id/flyt"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/flyt" />
+
+
+
+    </LinearLayout>
+
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="298dp" />
+
+    <ListView
+        android:id="@+id/set_resolution"
+        android:layout_width="293dp"
+        android:layout_height="468dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:divider="@null"
+        android:listSelector="#555" />
+
+
+</FrameLayout>

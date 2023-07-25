@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/vision2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnRestaNegada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camara"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+
+    <Button
+        android:id="@+id/filtro1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtro 1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/filtro2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtro 2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/filtro3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtro 3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/filtro4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtro 4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/filtro5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtro 5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+
+    <Button
+        android:id="@+id/filtro6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtro 6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/filtro7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segmentacion"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+
+    <Button
+        android:id="@+id/filtro8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reconovimiento Facial"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/btnAutores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autores"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+</LinearLayout>
